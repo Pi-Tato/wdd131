@@ -3,9 +3,62 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" 
+        content="Dynamic Web Fundamentals - Noah Carlisle - Course Assignment">
+    <meta name="author" content="Noah Carlisle">
+    <title>WDD 131 - Dynamic Web Fundamentals - Noah Carlisle</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/base.css">
 </head>
 <body>
-    <h1>Hello World</h1>
+    <header>
+        <div id="mode">
+            🕶️
+        </div>
+        <h1>Noah K. Carlisle</h1>
+    </header>
+    <div>
+        <a id="menu" href="#"></a>
+        <nav>
+            <ul class="navigation">
+                <li><a href = "https://www.linkedin.com">LinkedIn</a></li>
+                <li><a href = "https://byui.instructure.com">I-Learn</a></li>
+                <li><a href = "https://www.churchofjesuschrist.org/study/scriptures">Scripture</a></li>
+                <li><a href = "#">Final Project</a></li>
+            </ul>
+        </nav>
+    </div>
+    <main>
+        <h1>WDD 131: Dynamic Web Fundamentals</h1>
+        <div>
+            <section class="card">
+                <h2>About Me</h2>
+                <p>
+                    My name is Noah Carlisle. I was born in Utah, but now live in the southern part of Idaho. 
+                    I have few hobbies like programming video games, playing video games, 3D printing, rubik's cubes. 
+                    
+                    <img id="profile" src="images/profile.jpg" alt="Noah Carlisle Profile" width="140" height="auto">
+                </p>
+            </section>
+            <section class="card">
+                <h2>Web Dev Resourses</h2>
+                <ul>
+                    <li><a href="https://www.w3schools.com">W3 Schools</a></li>
+                    <li><a href="https://www.html.com">HTML For Beginners</a></li>
+                    <li><a href="https://www.geeksforgeeks.org/html-computer-code-elements/">GeeksforGeeks</a></li>
+                </ul>
+            </section>
+    </main>
+    <footer>
+        <p>© 2024. Noah Kristopher Carlisle USA.<img src="images/usa-flag.png" alt="USA Flag" width="50" height="26"></p>
+        <p id="lastModified"></p>
+        <p>Page visits: <span id="visits"></span></p>
+    </footer>
 </body>
+<script src="scripts/getdates.js"></script>
+<script src="scripts/HomePage.js"></script>
+<script src="scripts/weather.js"></script>
 </html>
