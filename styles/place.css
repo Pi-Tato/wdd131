@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-columns: 1fr;
+    margin: 0;
+}
+
+header, main, footer {
+    text-align: center;
+}
