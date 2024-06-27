@@ -11,3 +11,11 @@ body {
 header, main, footer {
     text-align: center;
 }
+
+header, footer {
+    background: #fd5656;
+}
+
+section ul {
+    list-style-type: none;
+}
