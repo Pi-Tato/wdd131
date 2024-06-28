@@ -19,7 +19,6 @@ header, footer {
 
 header {
     outline: 15px solid blue;
-    position: absolute;
     width: 100%;
 }
 
@@ -36,7 +35,6 @@ section ul {
 }
 
 .hero {
-    position: absolute;
     width: 100%;
     top: 90px;
 }
@@ -74,9 +72,14 @@ section ul {
     font-weight: bold;
 }
 
+footer {
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+}
+
 @media screen and (min-width: 640px) {
     section {
-        position: absolute;
         width: 33.3%;
         padding: 1rem;
     }
@@ -100,8 +103,6 @@ section ul {
     }
 
     footer {
-        position: absolute;
-        bottom: 0;
         width: 100%;
     }
 }
