@@ -1,0 +1,130 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    margin: 0;
+}
+
+header, footer {
+    text-align: center;
+    color: white;
+}
+
+header, footer {
+    background: red;
+    grid-column: 1 / 3;
+}
+
+main {
+    grid-column: 1 / 3;
+}
+
+header {
+    outline: 15px solid blue;
+    width: 100%;
+}
+
+section h1 {
+    background-color: blue;
+    padding: 1rem;
+    color: white;
+    
+}
+
+section ul {
+    list-style-type: none;
+    color: black;
+    text-align: center;
+}
+
+.hero {
+    width: 100%;
+}
+
+.area::before {
+    content: "Area: ";
+    font-weight: bold;
+}
+.population::before {
+    content: "Population: ";
+    font-weight: bold;
+}
+.capital::before {
+    content: "Capital: ";
+    font-weight: bold;
+}
+.languages::before {
+    content: "Languages: ";
+    font-weight: bold;
+}
+.currency::before {
+    content: "Currency: ";
+    font-weight: bold;
+}
+.timezones::before {
+    content: "Time Zones: ";
+    font-weight: bold;
+}
+.callingcode::before {
+    content: "Calling Code: ";
+    font-weight: bold;
+}
+.TLD::before {
+    content: "Internet TLD: ";
+    font-weight: bold;
+}
+
+.temp::before {
+    content: "Temperature: ";
+    font-weight: bold;
+}
+.condition::before {
+    content: "Condition: ";
+    font-weight: bold;
+}
+.wind::before {
+    content: "Wind Speed: ";
+    font-weight: bold;
+}
+.windchill::before {
+    content: "Wind Chill: ";
+    font-weight: bold;
+}
+
+footer {
+    position: relative;
+    width: 100%;
+}
+
+@media screen and (min-width: 640px) {
+    section {
+        width: 33.3%;
+        padding: 1rem;
+        position: absolute;
+    }
+
+    section ul {
+        background-color: rgba(255, 255, 255, 0.75);
+        padding: 1rem;
+    }
+
+    section h1 {
+        text-align: left;
+        margin: 0;
+        padding: 1rem;
+    }
+
+    .data {
+        padding-top: 100px;
+        top: 50px;
+    }
+
+    .weather {
+        padding-top: 100px;
+        right: 0;
+        top: 200px;
+    }
+}

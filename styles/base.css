@@ -139,12 +139,16 @@ section {
 {
     padding: 1rem;
 }
-/*
-#map {
-    width: 100%;
-    margin: 0 auto;
-    padding: 1rem;
-}*/
+
+#discription {
+    padding: 0;
+    margin: 0;
+}
+
+.card img {
+    width: 150px;
+    height: 100%;
+}
 
 footer {
     background: wheat;
