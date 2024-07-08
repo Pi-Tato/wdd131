@@ -43,6 +43,7 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     padding: 1rem;
+<<<<<<< HEAD
 }
 .cards {
     width: 550px;
@@ -54,4 +55,6 @@ section {
 }
 section img {
     box-shadow: 7px 7px 7px rgb(77, 77, 77);
+=======
+>>>>>>> 8958998a3f98e23d42bc5bd5f8830d5248bef856
 }
