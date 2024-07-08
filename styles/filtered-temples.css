@@ -40,18 +40,24 @@ header, main, footer {
 }
 
 main {
-    display: grid;
     grid-template-columns: 1fr;
     padding: 1rem;
 }
 .cards {
-    width: 550px;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    width: 100%;
     justify-self: center;
-    padding: 1rem;
 }
 section {
     background-color: beige;
+    padding: .5rem;
 }
 section img {
     box-shadow: 7px 7px 7px rgb(77, 77, 77);
+}
+
+footer {
+    background-color: black;
+    color: white;
 }
